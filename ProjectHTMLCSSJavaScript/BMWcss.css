@@ -1,0 +1,214 @@
+*{
+	margin:0;
+}
+.nav{
+	height:42px;
+	width:100%;
+    background-color:#333;
+}
+.nav ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.nav li{
+	float:left;
+}
+.nav a{
+	transition: 0.3s;
+	font-weight: bold;
+	font-family:Sans-serif;
+	text-decoration:none;
+	color:white;
+	display:block;
+	text-align:center;
+	padding: 12px 14px;
+}
+.nav a:hover{
+	background-color: #00aaff;
+}
+.futer{
+	background:#333;
+	width:100%;
+	height:10%;
+}
+.futer ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.futer a{
+	text-decoration:none;
+	color:white;
+	display:block-inline;
+	text-align:center;
+	padding: 12px 14px;
+}
+.futer li{
+	float:right;
+}
+.pozadina h1{
+	position:absolute;
+	top:30%;
+	left:10%;
+	font-family:Sans-serif;
+	color:white;
+	font-size:40px;
+	font-weight: bold;
+}
+.pozadina p{
+	position:absolute;
+	top:40%;
+    left:12%;
+	font-family:Sans-serif;
+	color:white;
+	font-size:25px;
+	font-weight: bold;
+}
+#dugme {
+	position:absolute;
+	top:48%;
+    left:12%;
+	font-size:20px;
+	background-color:#0099ff;
+	border:none;
+	border-radius:5px;
+	padding:10px 22px;
+	font-family:Sans-serif;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+#dugme{
+	text-decoration:none;
+	color:white;
+}
+#dugme:hover{
+	background-color:white;
+	color:black;
+}
+.futer img{
+	height:50px;
+	width:50px;
+	}
+	
+.pozadinaNovosti{
+	background-image:url(pozadina.jpg);
+	height:100%;
+	width:100%;
+	background-size:100% 100%;
+	overflow:auto;
+}
+.pozadinaNovosti table{
+
+	width:60%;
+	margin-left:15%;
+	
+}
+.pozadinaNovosti th{
+	padding:2%;
+	text-align:center;
+	font-size:28px;
+}
+.pozadinaNovosti td{
+	text-align:center;
+	padding:2%;
+}
+.pozadinaNovosti p{
+	text-align:justify;
+}
+.tabela1 td{
+	padding:0;
+	text-align:left;
+}
+.pozadinaKontakt{
+	background-image:url(Slike/B.jpg);
+	height:100%;
+	width:100%;
+	background-size:100% 100%;
+	overflow:auto;
+}
+.sadrzaj{
+	background:silver;
+	height:590px;
+	width:1000px;
+	border-radius:10px;
+	opacity:0.9;
+	position:absolute;
+	top:10%;
+	left:15%;
+}
+.Kontakt {
+	padding:2%;
+	position:absolute;
+	top:0%;
+	left:5%;
+	
+}
+.Kontakt th{
+	text-align:left;
+	font-size:26px;
+	padding:2%;
+}
+.Kontakt td{
+	text-align:left;
+	font-size:26px;
+	padding:2%;
+}
+.sadrzaj input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size:16;
+}
+.sadrzaj input[type=mail]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size:16;
+}
+.sadrzaj input[type=submit] {
+	position:absolute;
+	top:85%;
+	left:5%;
+	font-size:20;
+    width: 90%;
+    background-color: #00aaff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sadrzaj input[type=submit]:hover {
+    background-color: #0088cc;
+}
+.sadrzaj input[type=textarea]{
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;	
+}
+.sadrzaj textarea{
+	padding: 12px 20px;
+	box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+
+}
+.mapa{
+	width:350px;
+	height:350px;
+	position:relative;
+	left:15%;
+	margin-bottom:2%;
+}

@@ -1,0 +1,52 @@
+<html>
+ <head>
+  <link rel="stylesheet" href="BMWcss.css">
+  <title>BMW</title>
+ </head>
+<body>
+	<div class="pozadinaKontakt">
+		<div class="nav">
+			<ul>
+				<li><a href="Pocetna.html">Pocetna</a></li>
+				<li><a href="Novosti.html">Novosti</a></li>
+				<li><a href="Onama.html">O nama</a></li>
+			<ul style="float:right">
+				<li><a href="#">Kontakt</a></li>
+			</ul>
+			</ul>
+		</div>
+		
+		<div class="sadrzaj">			
+			<form id="Forma1" name="frm">			
+				<input type="submit"  onclick="Provera();" value="Posalji">											
+				<table class="Kontakt" width="900">
+					<tr>
+						<th colspan="5">Kontakt</th>
+					</tr>
+					<tr>
+						<td>*Ime: <input type="text"  placeholder="Unesite ime" name="ime" size="30"/></td>
+						<td>*Prezime: <input type="text" placeholder="Unesite prezime" name="prezime"/></td>
+						<td>*Email: <input type="mail" placeholder="Unesite email" name="email" onchange="Mail(this)"/></td>
+					</tr>
+					<tr>
+						<td colspan="5"><textarea name="message" rows="10" cols="110"></textarea></td>
+					</tr>
+					<tr>
+						<td colspan="5">Polja oznacena sa ' * ' su obavezna</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		</div>
+	<div class="futer">
+		<ul>
+			<li><a href="https://fr-fr.facebook.com/BMW"><img src="ikonice/Facebook.png"></a></li>
+			<li><a href="https://twitter.com/bmw"><img src="ikonice/twiter.png"></a></li>
+			<li><a href="https://www.instagram.com/bmw/"><img src="ikonice/insta.png"></a></li>
+		</ul>
+	</div>
+	
+	<script src="kontakt.js"></script>
+	
+</body>
+</html>
